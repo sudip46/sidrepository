@@ -1,0 +1,27 @@
+:root {
+  --main-bg-color: purple;
+}
+
+.max-width-1{
+    max-width: 90vw;
+}
+
+.max-width-2{
+    max-width: 70vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.btn{
+padding: 0.2rem;
+margin-bottom: 0.3rem;
+border: 0.2rem solid;
+}
+
+.i-form{
+   border: solid 0.1rem black;
+   border-radius: 0.3rem;
+   padding: 0.3rem;
+}

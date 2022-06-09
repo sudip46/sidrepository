@@ -1,0 +1,20 @@
+.content {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0rem;
+}
+
+.form-submit{
+    margin-left: 2rem;    
+}
+
+.row input, textarea{
+    width: 34vw;
+    border: 2px solid blueviolet;
+    border-radius: 0.2rem;
+}
+
+.btn{
+    padding: 0.5rem;
+    font-weight: bold;
+}

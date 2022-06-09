@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/blog project/utl.css" />
+    <link rel="stylesheet" href="/blog project/blog.css" />
+    <link rel="stylesheet" href="/blog project/contact.css">
+    <title>iTech</title>
+  </head>
+  <body>
+    <nav class="navigation .max-width-1 m-auto">
+      <div class="logo"><h2>iTech</h2></div>
+      <div class="sbox">
+        <form action="/blog project/search.html" target="_blank" method="get">
+        <input class="i-form" type="text" name="query" placeholder="Search" />
+        <button class="btn btn-outline-success">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div cdiv="container">
+      <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <div class="form-submit">
+    <div class="row">
+    <label for="staticEmail" class="col-sm-2 col-form-label">Name:</label>
+    <div class="col-sm-10">
+      <input type="text" id="name" placeholder="Enter Name" >
+    </div>
+  </div>
+    <div class="row">
+    <label for="staticEmail" class="col-sm-2 col-form-label">Email:</label>
+    <div class="col-sm-10">
+      <input type="email" id="email" placeholder="Enter email" >
+    </div>
+  </div>
+    <div class="row">
+    <label for="staticEmail" class="col-sm-2 col-form-label">Contact:</label>
+    <div class="col-sm-10">
+      <input type="number" id="phone" placeholder="Enter phone number" >
+    </div>
+  </div>
+    <div class="row">
+    <label for="staticEmail" class="col-sm-2 col-form-label">Query:</label>
+    <div class="col-sm-10">
+      <textarea name="" id="query" cols="30" rows="5" placeholder="Submit your query" ></textarea>
+    </div>
+  </div>
+    <div class="col-sm-12">
+        <label for="staticEmail" class="col-sm-2 col-form-label"></label>
+      <button class="btn btn-danger" onclick="Submit()">Submit</button>
+    </div>
+  </div>
+</div>
+
+    
+    
+
+    <div class="footer max-width-2 m-auto">
+      <p>Copyright:&copy;TechWeekly.org</p>
+    </div>
+
+    <script>
+
+function Submit(){
+localStorage.setItem('name',document.getElementById('name').value)
+localStorage.setItem('email',document.getElementById('email').value)
+localStorage.setItem('phone',document.getElementById('phone').value)
+localStorage.setItem('query',document.getElementById('query').value)
+
+
+alert("Query Recieved")
+}
+
+    </script>
+
+  </body>
+</html>

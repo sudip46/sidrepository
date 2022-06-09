@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.navigation {
+  height: 5rem;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+
+.content {
+  height: 30rem;
+  display: flex;
+  /* background-color: rgb(228, 215, 243); */
+}
+
+.para {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blueviolet; */
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0rem;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 0.4rem;
+  font-size: 1.3rem;
+}
+
+.navbar a:hover {
+  color: orangered;
+}
+
+.card {
+  margin: 1rem 2rem;
+  background-color: lightblue;
+  display: flex;
+  border: 1px solid blueviolet;
+  float: left;
+}
+
+.card-title {
+  font-weight: bold;
+  color: blue;
+}
+
+.card-subtitle {
+  margin-top: 1rem;
+}
+
+.card-text {
+  margin-top: 0.5rem;
+}
+
+.card-container {
+  display: block;
+  width: 100%;
+}
+
+.fold-4 {
+  height: 6rem;
+}
+
+.fin-img {
+  height: 10rem;
+}
